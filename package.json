@@ -1,0 +1,35 @@
+{
+  "name": "@affiliatedtech/eslint-config",
+  "version": "0.0.0",
+  "description": "Shareable eslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run tests-only",
+    "posttest": "npx aud --production",
+    "tests-only": "eslint index.js && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/affiliatedtech/eslint-config.git"
+  },
+  "keywords": [],
+  "author": "Affiliated Technology Solutions",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/affiliatedtech/eslint-config/issues"
+  },
+  "homepage": "https://github.com/affiliatedtech/eslint-config#readme",
+  "devDependencies": {
+    "aud": "^2.0.0",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-snakecasejs": "^2.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-snakecasejs": "^2.2.0"
+  }
+}

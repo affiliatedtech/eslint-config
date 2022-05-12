@@ -60,7 +60,8 @@
       "CallExpression",
       "ClassDeclaration",
       "MemberExpression",
-      "NewExpression"
+      "NewExpression",
+      "Property"
     ],
     "snakecasejs/whitelist": [
       "externalPath",
